@@ -1,0 +1,4 @@
+invoice_status,total_invoiced,number_of_invoices,average_invoice_amount
+Paid,30287408.34,391,77461.4
+Unpaid,8858014.89,109,81266.19
+Overdue,7299459.63,100,72994.6

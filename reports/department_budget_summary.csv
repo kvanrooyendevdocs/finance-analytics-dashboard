@@ -1,0 +1,9 @@
+department_name,total_budget,total_actual_spend,total_variance,over_budget_months,under_budget_months,variance_percentage,overall_budget_status
+Human Resources,1516905.0599999998,2868959.31,-1352054.25,8,4,-89.1,Over Budget
+Operations,3005929.73,3480552.78,-474623.05000000005,6,6,-15.8,Over Budget
+Finance,2275079.02,2615351.75,-340272.73,6,6,-15.0,Over Budget
+IT,3303039.9899999998,2980042.4,322997.59,7,5,9.8,Under Budget
+Research and Development,3646072.45,3283821.32,362251.13,6,6,9.9,Under Budget
+Customer Support,3104736.17,2517030.8,587705.3700000001,5,7,18.9,Under Budget
+Marketing,3965777.49,3271534.96,694242.53,6,6,17.5,Under Budget
+Sales,3616254.85,2439051.57,1177203.28,5,7,32.6,Under Budget

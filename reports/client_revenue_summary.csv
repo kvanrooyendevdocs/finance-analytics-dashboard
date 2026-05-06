@@ -1,0 +1,51 @@
+client_id,client_name,industry,country,total_invoiced,number_of_invoices,paid_invoices,overdue_invoices
+2,Doyle Ltd,Education,United Kingdom,1547427.78,17,14,2
+32,Carlson-Cruz,Logistics,United States,1349913.6,15,13,0
+13,Arnold Ltd,Education,South Africa,1279363.86,17,12,1
+24,Morales-Jones,Insurance,Australia,1271082.52,11,8,1
+23,Perez Inc,Insurance,Germany,1264577.51,14,12,2
+46,Spence PLC,Logistics,Germany,1257926.25,15,10,3
+3,"Mcclain, Miller and Henderson",Healthcare,United Kingdom,1245558.49,16,14,0
+48,"Martin, Rose and Obrien",Education,United Kingdom,1196192.94,15,10,3
+38,"Baker, Mason and White",Logistics,Germany,1175813.37,15,8,3
+26,Wilkerson-Day,Manufacturing,Australia,1154141.66,14,6,3
+27,Baker and Sons,Healthcare,South Africa,1147684.43,14,8,2
+7,Blake and Sons,Banking,South Africa,1131166.08,17,12,3
+20,"Reid, Ferguson and Sanchez",Manufacturing,Australia,1130126.26,16,9,5
+10,Abbott-Munoz,Healthcare,Australia,1126788.46,16,11,2
+25,"Walter, Edwards and Rios",Education,Australia,1111259.64,15,9,3
+9,Garcia-James,Banking,Australia,1093647.48,15,9,1
+14,"Mcclure, Ward and Lee",Retail,Germany,1076299.15,15,8,4
+5,"Guzman, Hoffman and Baldwin",Insurance,Australia,1035316.95,11,7,2
+49,Hickman Ltd,Healthcare,Australia,1033142.52,14,6,4
+37,Smith-Bowen,Healthcare,United Kingdom,1025053.68,12,7,1
+42,George Group,Banking,United States,994040.43,13,8,3
+1,"Rodriguez, Figueroa and Sanchez",Insurance,South Africa,973185.99,13,9,3
+47,Anderson Group,Logistics,United Kingdom,941008.11,11,9,1
+19,"Adams, Zuniga and Wong",Insurance,United States,925822.05,14,9,2
+15,Williams and Sons,Manufacturing,United States,900701.01,13,7,0
+36,Rodriguez-Graham,Retail,Australia,899383.78,13,9,2
+31,Burton Ltd,Technology,United States,898606.95,13,9,1
+22,"Watts, Robinson and Nguyen",Logistics,Australia,877103.99,12,9,1
+18,"Flowers, Martin and Kelly",Insurance,Germany,863452.56,11,8,1
+39,Harrell LLC,Education,Australia,854221.79,10,8,2
+28,"Hoffman, Baker and Richards",Banking,United Kingdom,840103.09,11,6,1
+12,Dudley Group,Logistics,Australia,839319.11,10,8,0
+16,Galloway-Wyatt,Retail,United Kingdom,831183.81,12,9,3
+45,"Arroyo, Miller and Tucker",Manufacturing,United Kingdom,830063.42,9,6,2
+44,Allen-Allen,Insurance,United Kingdom,817069.84,10,5,3
+40,"Romero, Gonzalez and Brooks",Healthcare,United States,806331.3,11,8,1
+41,Ryan PLC,Banking,United Kingdom,795253.17,10,7,1
+35,"Dyer, Potter and Mack",Education,South Africa,790395.06,11,5,4
+4,Davis and Sons,Insurance,Australia,773795.98,10,5,3
+8,"Henderson, Ramirez and Lewis",Healthcare,United Kingdom,721721.89,12,7,5
+43,Rodriguez LLC,Technology,United States,717344.04,7,2,4
+11,Blair PLC,Technology,United Kingdom,714173.04,9,5,2
+29,"Ross, Robinson and Bright",Education,South Africa,660212.55,10,8,1
+34,Frazier Inc,Manufacturing,United Kingdom,658383.11,8,3,2
+30,"Snyder, Campos and Callahan",Healthcare,South Africa,551575.91,10,7,1
+17,James Group,Manufacturing,South Africa,551389.6,7,6,1
+50,"Harris, Collins and Carney",Education,Australia,522336.7,8,4,2
+21,Gray-Mayo,Education,South Africa,495990.89,7,5,0
+33,"Ferrell, Rice and Maddox",Retail,United States,476977.6,6,6,0
+6,"Gardner, Robinson and Lawrence",Technology,South Africa,271253.46,5,1,3

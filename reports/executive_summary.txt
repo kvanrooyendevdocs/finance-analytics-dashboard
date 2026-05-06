@@ -1,0 +1,70 @@
+
+FINANCE ANALYTICS DASHBOARD - EXECUTIVE SUMMARY
+===============================================
+
+Overall Performance
+-------------------
+Total invoiced revenue: R46,444,882.86
+Total expenses: R35,587,456.07
+Total profit: R10,857,426.79
+Overall profit margin: 23.4%
+
+The business generated a positive overall profit across the reporting period. However, several months showed weaker profitability due to high expenses and outstanding invoice balances.
+
+Best and Worst Months
+---------------------
+Best profit month: 2026-03
+Profit: R1,846,911.00
+Profit margin: 40.5%
+
+Worst profit month: 2025-08
+Profit: R-341,383.98
+Profit margin: -9.4%
+
+Cashflow and Collection Risk
+----------------------------
+Total paid amount: R30,287,408.34
+Total unpaid amount: R8,858,014.89
+Total overdue amount: R7,299,459.63
+Total outstanding amount: R16,157,474.52
+Overall collection rate: 65.2%
+
+Highest outstanding month: 2026-03
+Outstanding amount: R2,061,065.73
+Collection rate: 54.8%
+
+Revenue and Client Insights
+---------------------------
+Top client by invoiced revenue: Doyle Ltd
+Industry: Education
+Country: United Kingdom
+Total invoiced: R1,547,427.78
+
+Highest payment-risk client: Gardner, Robinson and Lawrence
+Industry: Technology
+Country: South Africa
+Overdue invoice rate: 60.0%
+Late payment rate: 100.0%
+
+Expense and Vendor Insights
+---------------------------
+Largest expense category: Training
+Total expenses: R4,796,457.99
+
+Highest-spend vendor: Yu Inc
+Vendor category: Utilities
+Total spend: R1,528,968.79
+
+Budget Control
+--------------
+Most over-budget department: Human Resources
+Total budget: R1,516,905.06
+Total actual spend: R2,868,959.31
+Total variance: R-1,352,054.25
+Variance percentage: -89.1%
+
+Key Business Interpretation
+---------------------------
+The business is profitable overall, but cashflow risk is a major concern. A large amount of invoiced revenue remains unpaid or overdue, meaning reported profit does not fully reflect cash collected.
+
+The dashboard should therefore focus on both profitability and collection risk. This allows decision-makers to identify strong revenue months, high-cost departments, over-budget areas, and risky clients who may affect future cashflow.

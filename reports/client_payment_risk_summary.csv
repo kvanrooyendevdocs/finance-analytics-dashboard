@@ -1,0 +1,51 @@
+client_id,client_name,industry,country,total_invoiced,number_of_invoices,paid_invoices,overdue_invoices,late_payments,average_days_to_payment,average_days_late,late_payment_rate,overdue_invoice_rate,payment_risk_level
+6,"Gardner, Robinson and Lawrence",Technology,South Africa,271253.45999999996,5,1,3,1,31.0,17.0,100.0,60.0,High Risk
+43,Rodriguez LLC,Technology,United States,717344.04,7,2,4,1,45.5,0.5,50.0,57.1,High Risk
+8,"Henderson, Ramirez and Lewis",Healthcare,United Kingdom,721721.89,12,7,5,5,46.7,6.1,71.4,41.7,High Risk
+35,"Dyer, Potter and Mack",Education,South Africa,790395.0599999999,11,5,4,3,49.6,4.8,60.0,36.4,High Risk
+20,"Reid, Ferguson and Sanchez",Manufacturing,Australia,1130126.26,16,9,5,3,49.9,1.8,33.3,31.2,High Risk
+4,Davis and Sons,Insurance,Australia,773795.98,10,5,3,4,42.6,9.8,80.0,30.0,High Risk
+44,Allen-Allen,Insurance,United Kingdom,817069.84,10,5,3,3,44.6,2.6,60.0,30.0,High Risk
+49,Hickman Ltd,Healthcare,Australia,1033142.52,14,6,4,6,49.3,7.0,100.0,28.6,High Risk
+14,"Mcclure, Ward and Lee",Retail,Germany,1076299.15,15,8,4,8,53.6,12.8,100.0,26.7,High Risk
+34,Frazier Inc,Manufacturing,United Kingdom,658383.11,8,3,2,3,46.7,12.0,100.0,25.0,High Risk
+50,"Harris, Collins and Carney",Education,Australia,522336.69999999995,8,4,2,4,50.5,13.2,100.0,25.0,High Risk
+16,Galloway-Wyatt,Retail,United Kingdom,831183.8099999999,12,9,3,6,40.6,4.1,66.7,25.0,High Risk
+1,"Rodriguez, Figueroa and Sanchez",Insurance,South Africa,973185.99,13,9,3,6,42.7,6.3,66.7,23.1,High Risk
+42,George Group,Banking,United States,994040.43,13,8,3,4,46.2,1.2,50.0,23.1,High Risk
+11,Blair PLC,Technology,United Kingdom,714173.04,9,5,2,4,34.0,4.6,80.0,22.2,High Risk
+45,"Arroyo, Miller and Tucker",Manufacturing,United Kingdom,830063.4199999999,9,6,2,4,38.2,3.5,66.7,22.2,High Risk
+26,Wilkerson-Day,Manufacturing,Australia,1154141.66,14,6,3,4,37.7,2.8,66.7,21.4,High Risk
+48,"Martin, Rose and Obrien",Education,United Kingdom,1196192.94,15,10,3,9,39.2,8.0,90.0,20.0,High Risk
+46,Spence PLC,Logistics,Germany,1257926.25,15,10,3,6,40.4,6.2,60.0,20.0,High Risk
+25,"Walter, Edwards and Rios",Education,Australia,1111259.64,15,9,3,5,43.7,4.0,55.6,20.0,High Risk
+38,"Baker, Mason and White",Logistics,Germany,1175813.37,15,8,3,3,25.0,1.1,37.5,20.0,High Risk
+39,Harrell LLC,Education,Australia,854221.79,10,8,2,3,33.2,2.0,37.5,20.0,High Risk
+5,"Guzman, Hoffman and Baldwin",Insurance,Australia,1035316.95,11,7,2,7,51.4,15.3,100.0,18.2,High Risk
+17,James Group,Manufacturing,South Africa,551389.6,7,6,1,5,55.5,10.5,83.3,14.3,High Risk
+27,Baker and Sons,Healthcare,South Africa,1147684.43,14,8,2,6,44.1,5.0,75.0,14.3,High Risk
+19,"Adams, Zuniga and Wong",Insurance,United States,925822.05,14,9,2,6,45.9,7.8,66.7,14.3,High Risk
+23,Perez Inc,Insurance,Germany,1264577.51,14,12,2,8,34.3,2.2,66.7,14.3,High Risk
+10,Abbott-Munoz,Healthcare,Australia,1126788.46,16,11,2,9,50.2,8.0,81.8,12.5,High Risk
+2,Doyle Ltd,Education,United Kingdom,1547427.78,17,14,2,11,48.3,7.8,78.6,11.8,High Risk
+30,"Snyder, Campos and Callahan",Healthcare,South Africa,551575.91,10,7,1,6,39.1,7.3,85.7,10.0,High Risk
+41,Ryan PLC,Banking,United Kingdom,795253.17,10,7,1,6,60.9,11.6,85.7,10.0,High Risk
+29,"Ross, Robinson and Bright",Education,South Africa,660212.55,10,8,1,4,40.4,1.1,50.0,10.0,High Risk
+47,Anderson Group,Logistics,United Kingdom,941008.11,11,9,1,7,49.3,4.4,77.8,9.1,High Risk
+28,"Hoffman, Baker and Richards",Banking,United Kingdom,840103.09,11,6,1,4,35.7,6.2,66.7,9.1,High Risk
+18,"Flowers, Martin and Kelly",Insurance,Germany,863452.56,11,8,1,5,44.4,5.2,62.5,9.1,High Risk
+40,"Romero, Gonzalez and Brooks",Healthcare,United States,806331.3,11,8,1,5,47.1,6.1,62.5,9.1,High Risk
+24,Morales-Jones,Insurance,Australia,1271082.52,11,8,1,4,41.4,4.0,50.0,9.1,High Risk
+22,"Watts, Robinson and Nguyen",Logistics,Australia,877103.99,12,9,1,8,49.7,6.6,88.9,8.3,High Risk
+37,Smith-Bowen,Healthcare,United Kingdom,1025053.68,12,7,1,5,54.4,7.4,71.4,8.3,High Risk
+31,Burton Ltd,Technology,United States,898606.95,13,9,1,6,46.3,4.8,66.7,7.7,High Risk
+9,Garcia-James,Banking,Australia,1093647.48,15,9,1,5,41.1,4.7,55.6,6.7,High Risk
+13,Arnold Ltd,Education,South Africa,1279363.86,17,12,1,9,48.3,6.0,75.0,5.9,High Risk
+21,Gray-Mayo,Education,South Africa,495990.89,7,5,0,4,44.0,8.4,80.0,0.0,High Risk
+12,Dudley Group,Logistics,Australia,839319.11,10,8,0,6,45.1,9.9,75.0,0.0,High Risk
+15,Williams and Sons,Manufacturing,United States,900701.01,13,7,0,5,45.0,6.9,71.4,0.0,High Risk
+32,Carlson-Cruz,Logistics,United States,1349913.6,15,13,0,7,41.4,4.8,53.8,0.0,High Risk
+33,"Ferrell, Rice and Maddox",Retail,United States,476977.60000000003,6,6,0,3,39.5,2.2,50.0,0.0,High Risk
+7,Blake and Sons,Banking,South Africa,1131166.08,17,12,3,5,35.1,0.3,41.7,17.6,Medium Risk
+36,Rodriguez-Graham,Retail,Australia,899383.78,13,9,2,4,40.2,5.7,44.4,15.4,Medium Risk
+3,"Mcclain, Miller and Henderson",Healthcare,United Kingdom,1245558.49,16,14,0,5,36.9,0.7,35.7,0.0,Medium Risk
