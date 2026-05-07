@@ -1,0 +1,12 @@
+SELECT
+    invoice_month,
+    invoice_status,
+    ROUND(SUM(invoice_amount), 2) AS total_invoiced,
+    COUNT(invoice_id) AS number_of_invoices
+FROM invoices
+GROUP BY
+    invoice_month,
+    invoice_status
+ORDER BY
+    invoice_month,
+    invoice_status;
