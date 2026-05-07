@@ -1,6 +1,6 @@
 # Finance Analytics Dashboard
 
-This project is a finance analytics portfolio dashboard built with Python, pandas, SQL/PostgreSQL, Power BI, and GitHub.
+This project is a finance analytics portfolio dashboard built with Python, pandas, PostgreSQL, SQL, Power BI, and GitHub.
 
 The goal of the project is to analyse synthetic company finance data and identify key business insights around revenue, expenses, profitability, budgets, clients, vendors, and payment risk.
 
@@ -51,6 +51,20 @@ finance-analytics-dashboard/
 │   └── create_finance_charts.py
 │
 ├── sql/
+│   ├── create_tables.sql
+│   ├── 01_row_counts.sql
+│   ├── 02_monthly_revenue.sql
+│   ├── 03_monthly_expenses.sql
+│   ├── 04_monthly_profit.sql
+│   ├── 05_expense_category_summary.sql
+│   ├── 06_client_revenue_summary.sql
+│   ├── 07_vendor_spend_summary.sql
+│   ├── 08_budget_vs_actual.sql
+│   ├── 09_department_budget_summary.sql
+│   ├── 10_client_payment_risk_summary.sql
+│   ├── 11_invoice_status_summary.sql
+│   ├── 12_monthly_cashflow_risk.sql
+│   └── 13_monthly_finance_kpis.sql
 │
 ├── README.md
 └── .gitignore
@@ -77,7 +91,7 @@ vendors.csv	40	Vendor companies
 invoices.csv	600	Client invoice records
 expenses.csv	900	Company expense records
 budgets.csv	96	Monthly department budgets
-Analysis Outputs
+Python Analysis Outputs
 
 The Python analysis creates the following reports:
 
@@ -95,6 +109,37 @@ invoice_status_summary.csv	Paid, unpaid, and overdue invoice totals
 monthly_cashflow_risk.csv	Monthly paid, unpaid, and overdue amounts
 monthly_finance_kpis.csv	Dashboard-ready monthly KPI table
 executive_summary.txt	Plain-English business summary
+SQL / PostgreSQL Analysis
+
+The cleaned finance data was imported into a PostgreSQL database called finance_analytics.
+
+The database contains the following tables:
+
+Table	Description
+departments	Company departments
+clients	Client companies
+vendors	Vendor companies
+invoices	Invoice and payment records
+expenses	Company expense records
+budgets	Monthly department budgets
+
+The SQL layer recreates the main business analysis using PostgreSQL queries.
+
+SQL File	Purpose
+create_tables.sql	Creates the PostgreSQL database tables
+01_row_counts.sql	Confirms successful table imports
+02_monthly_revenue.sql	Monthly revenue and invoice status analysis
+03_monthly_expenses.sql	Monthly expense analysis
+04_monthly_profit.sql	Monthly profit and margin analysis
+05_expense_category_summary.sql	Expense category analysis
+06_client_revenue_summary.sql	Client revenue ranking
+07_vendor_spend_summary.sql	Vendor spend ranking
+08_budget_vs_actual.sql	Monthly department budget variance
+09_department_budget_summary.sql	Overall department budget performance
+10_client_payment_risk_summary.sql	Client payment risk analysis
+11_invoice_status_summary.sql	Paid, unpaid, and overdue invoice totals
+12_monthly_cashflow_risk.sql	Monthly paid, unpaid, and overdue cashflow risk
+13_monthly_finance_kpis.sql	Monthly dashboard KPI summary
 Key Insights
 
 The business was profitable overall, but cashflow risk was a major concern because a large amount of invoiced revenue remained unpaid or overdue.
@@ -134,3 +179,30 @@ Budget variance
 Outstanding revenue
 Overdue invoices
 Client payment risk
+Skills Demonstrated
+
+This project demonstrates the following Data Analyst / BI Analyst skills:
+
+Generating realistic synthetic business data
+Cleaning and enriching data with Python and pandas
+Creating reusable analysis scripts
+Building business-ready CSV outputs
+Writing SQL queries for finance analysis
+Using joins to combine relational tables
+Using CTEs for multi-step SQL analysis
+Creating calculated fields such as profit, profit margin, variance, outstanding amount, and collection rate
+Analysing budget vs actual performance
+Identifying payment and cashflow risk
+Creating chart images for portfolio presentation
+Using Git and GitHub for version control
+Next Steps
+
+The next stage of this project is to build the Power BI dashboard.
+
+Planned dashboard pages:
+
+Executive Finance Overview
+Revenue Analysis
+Expense Analysis
+Budget vs Actuals
+Cashflow and Payment Risk
