@@ -41,6 +41,7 @@ finance-analytics-dashboard/
 │   └── cleaned/
 │
 ├── powerbi/
+│   └── finance_analytics_dashboard.pbix
 │
 ├── reports/
 │
@@ -68,79 +69,99 @@ finance-analytics-dashboard/
 │
 ├── README.md
 └── .gitignore
+```
 
-Dataset Overview
+## Dataset Overview
 
 This project uses synthetic finance data generated with Python and Faker.
 
 The raw datasets include:
 
-Departments
-Clients
-Vendors
-Invoices
-Expenses
-Budgets
+- Departments
+- Clients
+- Vendors
+- Invoices
+- Expenses
+- Budgets
 
 The generated raw data includes:
 
-Dataset	Rows	Description
-departments.csv	8	Company departments
-clients.csv	50	Client companies
-vendors.csv	40	Vendor companies
-invoices.csv	600	Client invoice records
-expenses.csv	900	Company expense records
-budgets.csv	96	Monthly department budgets
-Python Analysis Outputs
+| Dataset | Rows | Description |
+|---|---:|---|
+| departments.csv | 8 | Company departments |
+| clients.csv | 50 | Client companies |
+| vendors.csv | 40 | Vendor companies |
+| invoices.csv | 600 | Client invoice records |
+| expenses.csv | 900 | Company expense records |
+| budgets.csv | 96 | Monthly department budgets |
+
+## Python Analysis Outputs
 
 The Python analysis creates the following reports:
 
-Report	Purpose
-monthly_revenue.csv	Monthly invoiced revenue and invoice counts
-monthly_expenses.csv	Monthly expense totals
-monthly_profit.csv	Monthly revenue, expenses, profit, and margin
-expense_category_summary.csv	Expense breakdown by category
-client_revenue_summary.csv	Revenue by client
-vendor_spend_summary.csv	Spend by vendor
-budget_vs_actual.csv	Monthly department budget comparison
-department_budget_summary.csv	Yearly department budget performance
-client_payment_risk_summary.csv	Client payment risk analysis
-invoice_status_summary.csv	Paid, unpaid, and overdue invoice totals
-monthly_cashflow_risk.csv	Monthly paid, unpaid, and overdue amounts
-monthly_finance_kpis.csv	Dashboard-ready monthly KPI table
-executive_summary.txt	Plain-English business summary
-SQL / PostgreSQL Analysis
+| Report | Purpose |
+|---|---|
+| monthly_revenue.csv | Monthly invoiced revenue and invoice counts |
+| monthly_expenses.csv | Monthly expense totals |
+| monthly_profit.csv | Monthly revenue, expenses, profit, and margin |
+| expense_category_summary.csv | Expense breakdown by category |
+| client_revenue_summary.csv | Revenue by client |
+| vendor_spend_summary.csv | Spend by vendor |
+| budget_vs_actual.csv | Monthly department budget comparison |
+| department_budget_summary.csv | Yearly department budget performance |
+| client_payment_risk_summary.csv | Client payment risk analysis |
+| invoice_status_summary.csv | Paid, unpaid, and overdue invoice totals |
+| monthly_cashflow_risk.csv | Monthly paid, unpaid, and overdue amounts |
+| monthly_finance_kpis.csv | Dashboard-ready monthly KPI table |
+| executive_summary.txt | Plain-English business summary |
 
-The cleaned finance data was imported into a PostgreSQL database called finance_analytics.
+## SQL / PostgreSQL Analysis
+
+The cleaned finance data was imported into a PostgreSQL database called `finance_analytics`.
 
 The database contains the following tables:
 
-Table	Description
-departments	Company departments
-clients	Client companies
-vendors	Vendor companies
-invoices	Invoice and payment records
-expenses	Company expense records
-budgets	Monthly department budgets
+| Table | Description |
+|---|---|
+| departments | Company departments |
+| clients | Client companies |
+| vendors | Vendor companies |
+| invoices | Invoice and payment records |
+| expenses | Company expense records |
+| budgets | Monthly department budgets |
 
 The SQL layer recreates the main business analysis using PostgreSQL queries.
 
-SQL File	Purpose
-create_tables.sql	Creates the PostgreSQL database tables
-01_row_counts.sql	Confirms successful table imports
-02_monthly_revenue.sql	Monthly revenue and invoice status analysis
-03_monthly_expenses.sql	Monthly expense analysis
-04_monthly_profit.sql	Monthly profit and margin analysis
-05_expense_category_summary.sql	Expense category analysis
-06_client_revenue_summary.sql	Client revenue ranking
-07_vendor_spend_summary.sql	Vendor spend ranking
-08_budget_vs_actual.sql	Monthly department budget variance
-09_department_budget_summary.sql	Overall department budget performance
-10_client_payment_risk_summary.sql	Client payment risk analysis
-11_invoice_status_summary.sql	Paid, unpaid, and overdue invoice totals
-12_monthly_cashflow_risk.sql	Monthly paid, unpaid, and overdue cashflow risk
-13_monthly_finance_kpis.sql	Monthly dashboard KPI summary
-Key Insights
+| SQL File | Purpose |
+|---|---|
+| create_tables.sql | Creates the PostgreSQL database tables |
+| 01_row_counts.sql | Confirms successful table imports |
+| 02_monthly_revenue.sql | Monthly revenue and invoice status analysis |
+| 03_monthly_expenses.sql | Monthly expense analysis |
+| 04_monthly_profit.sql | Monthly profit and margin analysis |
+| 05_expense_category_summary.sql | Expense category analysis |
+| 06_client_revenue_summary.sql | Client revenue ranking |
+| 07_vendor_spend_summary.sql | Vendor spend ranking |
+| 08_budget_vs_actual.sql | Monthly department budget variance |
+| 09_department_budget_summary.sql | Overall department budget performance |
+| 10_client_payment_risk_summary.sql | Client payment risk analysis |
+| 11_invoice_status_summary.sql | Paid, unpaid, and overdue invoice totals |
+| 12_monthly_cashflow_risk.sql | Monthly paid, unpaid, and overdue cashflow risk |
+| 13_monthly_finance_kpis.sql | Monthly dashboard KPI summary |
+
+## Power BI Dashboard
+
+The Power BI dashboard contains five pages:
+
+1. Executive Overview
+2. Revenue Analysis
+3. Expense Analysis
+4. Budget vs Actuals
+5. Cashflow & Payment Risk
+
+The dashboard was built using the cleaned analysis outputs from the `reports/` folder.
+
+## Key Insights
 
 The business was profitable overall, but cashflow risk was a major concern because a large amount of invoiced revenue remained unpaid or overdue.
 
@@ -154,55 +175,95 @@ Doyle Ltd was the highest-value client by invoiced revenue, generating R1,547,42
 
 Gardner, Robinson and Lawrence was the highest payment-risk client, with an overdue invoice rate of 60.0% and a late payment rate of 100.0%.
 
-Chart Preview
-Monthly Profit
+## Python Chart Preview
 
-Revenue vs Expenses
+### Monthly Profit
 
-Expenses by Category
+![Monthly Profit](reports/monthly_profit.png)
 
-Department Budget Variance
+### Revenue vs Expenses
 
-Outstanding Amount by Month
+![Revenue vs Expenses](reports/revenue_vs_expenses.png)
 
-Top Risky Clients
+### Expenses by Category
 
-Business Interpretation
+![Expenses by Category](reports/expenses_by_category.png)
+
+### Department Budget Variance
+
+![Department Budget Variance](reports/department_budget_variance.png)
+
+### Outstanding Amount by Month
+
+![Outstanding Amount by Month](reports/outstanding_amount_by_month.png)
+
+### Top Risky Clients
+
+![Top Risky Clients](reports/top_risky_clients.png)
+
+## Power BI Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](reports/executive_overview.png)
+
+### Revenue Analysis
+
+![Revenue Analysis](reports/revenue_analysis.png)
+
+### Expense Analysis
+
+![Expense Analysis](reports/expense_analysis.png)
+
+### Budget vs Actuals
+
+![Budget vs Actuals](reports/budget_vs_actuals.png)
+
+### Cashflow & Payment Risk
+
+![Cashflow & Payment Risk](reports/cashflow_payment_risk.png)
+
+## Business Interpretation
 
 This project shows that profit alone does not tell the full finance story. A business may appear profitable on paper while still facing cashflow pressure if a large portion of revenue remains unpaid or overdue.
 
 The most important dashboard focus areas are:
 
-Profitability
-Expense control
-Budget variance
-Outstanding revenue
-Overdue invoices
-Client payment risk
-Skills Demonstrated
+- Profitability
+- Expense control
+- Budget variance
+- Outstanding revenue
+- Overdue invoices
+- Client payment risk
+
+## Skills Demonstrated
 
 This project demonstrates the following Data Analyst / BI Analyst skills:
 
-Generating realistic synthetic business data
-Cleaning and enriching data with Python and pandas
-Creating reusable analysis scripts
-Building business-ready CSV outputs
-Writing SQL queries for finance analysis
-Using joins to combine relational tables
-Using CTEs for multi-step SQL analysis
-Creating calculated fields such as profit, profit margin, variance, outstanding amount, and collection rate
-Analysing budget vs actual performance
-Identifying payment and cashflow risk
-Creating chart images for portfolio presentation
-Using Git and GitHub for version control
-Next Steps
+- Generating realistic synthetic business data
+- Cleaning and enriching data with Python and pandas
+- Creating reusable analysis scripts
+- Building business-ready CSV outputs
+- Writing SQL queries for finance analysis
+- Using joins to combine relational tables
+- Using CTEs for multi-step SQL analysis
+- Creating calculated fields such as profit, profit margin, variance, outstanding amount, and collection rate
+- Analysing budget vs actual performance
+- Identifying payment and cashflow risk
+- Building a multi-page Power BI dashboard
+- Creating chart images and dashboard screenshots for portfolio presentation
+- Using Git and GitHub for version control
 
-The next stage of this project is to build the Power BI dashboard.
+## Project Status
 
-Planned dashboard pages:
+This project currently includes:
 
-Executive Finance Overview
-Revenue Analysis
-Expense Analysis
-Budget vs Actuals
-Cashflow and Payment Risk
+- Synthetic finance data generation
+- Data cleaning and enrichment
+- Python/pandas analysis reports
+- PostgreSQL database table structure
+- SQL analysis queries
+- Executive summary
+- Chart image generation
+- Power BI dashboard
+- GitHub documentation
